@@ -1,0 +1,21 @@
+{
+    "name": "Perseus",
+    "title": "God Slayer",
+    "maxHp": 1000,
+    "currentHp": 1000,
+    "maxEssence": 500,
+    "currentEssence": 500,
+    "maxStamina":500,
+    "currentStamina":500,
+    "attack":500,
+    "staminaRegeneration": 10,
+    "essenceRegeneration": 10,
+    "speed": 10,
+    "strength": 10,
+    "endurance": 10,
+    "constitution": 10,
+    "dexterity": 10,
+    "agility": 10,
+    "intelligence": 10,
+    "willpower": 10
+}

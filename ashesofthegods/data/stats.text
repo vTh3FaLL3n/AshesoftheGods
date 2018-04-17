@@ -1,0 +1,40 @@
+this.id = id
+    this.userId = userId
+    this.name = name;
+    // the entity's name
+    this.maxHp = stats.maxHp;
+    // the enitity's max health
+    this.currentHp = stats.currentHp;
+    // the enitity's current health
+    this.maxEss = stats.maxEss;
+    // the entity's  max essence (a resource for that allows the use of magic based abilities)
+    this.currentEss = stats.currentEss;
+    // the entity's current essence (a resource for that allows the use of magic based abilities)
+    this.maxStam = stats.maxStam;
+    // the entity's max stamina (a resource for that allows the use of physical based abilities)
+    this.currentStam = stats.currentStam;
+    // the entity's current stamina (a resource for that allows the use of physical based abilities)
+    this.att = stats.att;
+    // the entity's attack (controls enitity physical damage)
+    this.stamReg = stats.stamReg;
+    // the entity's stamina regeneration (regeneration per turn)
+    this.essReg = stats.essReg;
+    // the entity's essence regeneration (regeneration per turn)
+    this.spd = stats.spd;
+    // the enitity's speed (enitity hit and dodge chance)
+    this.str = stats.str;
+    // the enitiy's strength (controls entity attack power)
+    this.end = stats.end;
+    // the entity's endurance (controls entity max stamina)
+    this.con = stats.con
+    // the entitys's constitution (controls entity max health health regeneration)
+    this.dex = stats.dex;
+    // the entitys's dexertity (controls entity stamina regeneration speed)
+    this.agi = stats.agi;
+    // the entitys's agility (controls entity speed)
+    this.int = stats.int;
+    // the entitys's intelligence (controls entity max essence)
+    this.will = stats.will;
+    // the entitys's willpower (controls entity essence regeneration speed)
+    this.defeat = defeat;
+    // a boolean telling whether the entity is defeated
